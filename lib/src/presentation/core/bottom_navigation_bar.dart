@@ -108,19 +108,48 @@ class _BottomBarState extends State<BottomBar> {
                 SizedBox(
                   height: 50,
                   width: 50,
-                  child: Center(
-                    child: SvgPicture.asset(
-                      icon,
-                      height: 25,
-                      color: state.currentTab == tab
-                          ? AppColors.red
-                          : AppColors.grey,
-                      /* colorFilter:
-                          Theme.of(context).colorScheme.primary.toColorFilter(),*/
-                      // colorFilter: (state.currentTab == tab
-                      //         ? AppColors.red
-                      //         : AppColors.grey
-                      //     .toColorFilter(),
+                  child: Align(
+                    alignment: Alignment.center,
+                    child: Stack(
+                      children: [
+                        SizedBox(
+                          width: 50,
+                          child: SvgPicture.asset(
+                            icon,
+                            height: 25,
+                            color: state.currentTab == tab
+                                ? AppColors.red
+                                : AppColors.grey,
+                            /* colorFilter:
+                              Theme.of(context).colorScheme.primary.toColorFilter(),*/
+                            // colorFilter: (state.currentTab == tab
+                            //         ? AppColors.red
+                            //         : AppColors.grey
+                            //     .toColorFilter(),
+                          ),
+                        ),
+                        if (tab == BottomBarTab.markerPlace)
+                          Positioned(
+                            top: -1, // Adjust position above icon
+                            left: 25,
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 4, vertical: 2), // Add padding
+                              decoration: BoxDecoration(
+                                color: AppColors.red,
+                                borderRadius: BorderRadius.circular(5),
+                              ),
+                              child: Text(
+                                "New",
+                                style: TextStyles.captionRegular(context)!
+                                    .copyWith(
+                                  fontSize: 8,
+                                  color: AppColors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                      ],
                     ),
                   ),
                 ),
