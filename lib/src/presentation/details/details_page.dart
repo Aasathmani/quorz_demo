@@ -86,7 +86,6 @@ class _DetailsPageState extends BaseState<DetailsPage> {
             children: [
               Column(
                 children: [
-                  // const Divider(),
                   _getProfileDetails(context, item),
                   _getAllDetails(context, item),
                 ],
@@ -104,18 +103,16 @@ class _DetailsPageState extends BaseState<DetailsPage> {
       decoration: const BoxDecoration(color: AppColors.lightBlueMoon),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: Units.kXLPadding),
-        child: Expanded(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              _getProfileImageWithNameAndDesignation(
-                context,
-                item,
-              ),
-              _getCreateDate(context, item),
-            ],
-          ),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            _getProfileImageWithNameAndDesignation(
+              context,
+              item,
+            ),
+            _getCreateDate(context, item),
+          ],
         ),
       ),
     );
@@ -503,7 +500,11 @@ class _DetailsPageState extends BaseState<DetailsPage> {
           padding: const EdgeInsets.symmetric(horizontal: Units.kSPadding),
           child: Row(
             children: [
-              Image.asset(AppIcons.kIcWhatsapp,height: 20,width: 20,),
+              Image.asset(
+                AppIcons.kIcWhatsapp,
+                height: 20,
+                width: 20,
+              ),
               const SizedBox(
                 width: 8,
               ),
@@ -539,7 +540,11 @@ class _DetailsPageState extends BaseState<DetailsPage> {
           padding: const EdgeInsets.symmetric(horizontal: Units.kSPadding),
           child: Row(
             children: [
-              Image.asset(AppIcons.kIcInsta,height: 20,width: 20,),
+              Image.asset(
+                AppIcons.kIcInsta,
+                height: 20,
+                width: 20,
+              ),
               const SizedBox(
                 width: 8,
               ),
@@ -872,8 +877,8 @@ class _DetailsPageState extends BaseState<DetailsPage> {
           SizedBox(
             width: MediaQuery.of(context).size.width,
             child: Padding(
-              padding:
-                  const EdgeInsets.symmetric(horizontal: Units.kStandardPadding),
+              padding: const EdgeInsets.symmetric(
+                  horizontal: Units.kStandardPadding),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
