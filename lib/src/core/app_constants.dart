@@ -258,6 +258,7 @@ class AppIcons {
   static const String kIcMic = 'assets/images/ic_mic.svg';
   static const String kIcWhatsapp = 'assets/images/ic_whatsapp.png';
   static const String kIcYoutube = 'assets/images/ic_youtube.svg';
+  static const String kIcInsta = 'assets/images/ic_insta.png';
 }
 
 class APIEndpoints {

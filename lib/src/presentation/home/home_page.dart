@@ -306,11 +306,11 @@ class _HomePageState extends BaseState<HomePage> {
                           ),
                           _getIconWithSlugText(context, item),
                           const SizedBox(
-                            height: 12,
+                            height: 10,
                           ),
                           const Divider(color: AppColors.lightGrey1),
                           const SizedBox(
-                            height: 10,
+                            height: 6,
                           ),
                           _getBudgetBrandTypeAndDescriptionText(context, item),
                         ],
@@ -613,7 +613,7 @@ class _HomePageState extends BaseState<HomePage> {
             width: 20,
           ),
           const SizedBox(
-            width: 10,
+            width: 8,
           ),
           SizedBox(
             width: 150,
@@ -621,6 +621,7 @@ class _HomePageState extends BaseState<HomePage> {
               item.cities == "null"
                   ? "Goa & Kerala"
                   : item.cities!.replaceAll("[", "").replaceAll("]", ""),
+              style: TextStyles.captionRegular(context)!.copyWith(color: AppColors.grey),
               overflow: TextOverflow.ellipsis,
             ),
           ),
@@ -662,6 +663,7 @@ class _HomePageState extends BaseState<HomePage> {
             padding: const EdgeInsets.symmetric(horizontal: Units.kSPadding),
             child: Text(
               _getFollowerRange(item.followersRage ?? ""),
+              style: TextStyles.captionRegular(context)!.copyWith(color: AppColors.grey),
               overflow: TextOverflow.ellipsis,
             ),
           ),
@@ -696,6 +698,7 @@ class _HomePageState extends BaseState<HomePage> {
             child: Text(
               _getCategories(item.categories),
               overflow: TextOverflow.ellipsis,
+              style: TextStyles.captionRegular(context)!.copyWith(color: AppColors.grey),
             ),
           ),
           const SizedBox(

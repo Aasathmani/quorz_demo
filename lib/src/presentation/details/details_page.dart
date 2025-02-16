@@ -503,7 +503,7 @@ class _DetailsPageState extends BaseState<DetailsPage> {
           padding: const EdgeInsets.symmetric(horizontal: Units.kSPadding),
           child: Row(
             children: [
-              Image.asset(AppIcons.kIcWhatsapp),
+              Image.asset(AppIcons.kIcWhatsapp,height: 20,width: 20,),
               const SizedBox(
                 width: 8,
               ),
@@ -539,7 +539,7 @@ class _DetailsPageState extends BaseState<DetailsPage> {
           padding: const EdgeInsets.symmetric(horizontal: Units.kSPadding),
           child: Row(
             children: [
-              Image.asset(AppIcons.kIcLinkedIn),
+              Image.asset(AppIcons.kIcInsta,height: 20,width: 20,),
               const SizedBox(
                 width: 8,
               ),
