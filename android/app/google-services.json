@@ -9,26 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:339985182456:android:ca3aa16344c7bf95b2150d",
         "android_client_info": {
-          "package_name": "com.app.qoruz.dev"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDWLqKRpSkztyU2JyUyoKwKZzEWWaeAY9s"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:339985182456:android:ca3aa16344c7bf95b2150d",
-        "android_client_info": {
-          "package_name": "com.app.qoruz.qa"
+          "package_name": "com.app.qoruz"
         }
       },
       "oauth_client": [],

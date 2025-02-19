@@ -119,7 +119,7 @@ const whiteListPdfUtiType = [
 //Fire base dynamic link
 const kUriPrefix = 'https://thinkpalm.page.link';
 const kWebUrl = 'https://thinkpalm.com';
-const kBundleId = 'com.fragomen.fesproject';
+const kBundleId = 'com.app.qoruz';
 
 ///Kb, Mb and Gb in Bytes
 const kbInBytes = 1024;

@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "923268469751",
-    "project_id": "fragomen-fes",
-    "storage_bucket": "fragomen-fes.appspot.com"
+    "project_number": "339985182456",
+    "project_id": "qourz-5daa5",
+    "storage_bucket": "qourz-5daa5.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:923268469751:android:813a77f9540c85d515d4f2",
+        "mobilesdk_app_id": "1:339985182456:android:ca3aa16344c7bf95b2150d",
         "android_client_info": {
-          "package_name": "com.fragomen.fesproject.dev"
+          "package_name": "com.app.qoruz.dev"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyASS_O-hGVAdG3qJ4kr5HIyNnq1Q_uFcYA"
+          "current_key": "AIzaSyDWLqKRpSkztyU2JyUyoKwKZzEWWaeAY9s"
         }
       ],
       "services": {
@@ -26,15 +26,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:923268469751:android:0e8cbeb13a90ca3115d4f2",
+        "mobilesdk_app_id": "1:339985182456:android:ca3aa16344c7bf95b2150d",
         "android_client_info": {
-          "package_name": "com.fragomen.fesproject.qa"
+          "package_name": "com.app.qoruz.qa"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyASS_O-hGVAdG3qJ4kr5HIyNnq1Q_uFcYA"
+          "current_key": "AIzaSyDWLqKRpSkztyU2JyUyoKwKZzEWWaeAY9s"
         }
       ],
       "services": {
@@ -45,15 +45,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:923268469751:android:8655ceb65e55d30715d4f2",
+        "mobilesdk_app_id": "1:339985182456:android:ca3aa16344c7bf95b2150d",
         "android_client_info": {
-          "package_name": "com.fragomen.fesproject.stage"
+          "package_name": "com.app.qoruz.stage"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyASS_O-hGVAdG3qJ4kr5HIyNnq1Q_uFcYA"
+          "current_key": "AIzaSyDWLqKRpSkztyU2JyUyoKwKZzEWWaeAY9s"
         }
       ],
       "services": {
